@@ -64,7 +64,7 @@ if Path('yt-dlp_GUI_settings.json').is_file():
         preview_color = ft.Colors.WHITE10
 else:
     #default config
-    downloads_folder = os.path.join(home_dir, "Downloads")
+    downloads_folder = os.path.(home_dir, "Downloads")
     auto_start = False
     crop_thumbnails = False 
     client_id = '0cc3fdffe0f84a1c80a2b2cdf4df1390'
@@ -1260,4 +1260,5 @@ def download(command, console):
     
 if __name__ == "__main__":    
     ft.app(target=main)
+
 
